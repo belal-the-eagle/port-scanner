@@ -20,17 +20,15 @@ Make sure you have Python 3 installed on your system. You will also need to inst
 
 bash
 
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/belal-the-eagle/port-scanner.git
 
-يُرجى استخدام الرمز البرمجي بحذر.
+cd port-scanner
+
 2. Install the dependencies using the provided requirements file: 
 
 bash
 
 pip install -r requirements.txt
-
-يُرجى استخدام الرمز البرمجي بحذر.
 
 ### Usage
 
@@ -42,8 +40,6 @@ bash
 
 python port-scanner.py <target_ip> <target_port>
 
-يُرجى استخدام الرمز البرمجي بحذر.
-
 *Example:* python port-scanner.py 192.168.1.1 80 
 
 ### 2. Scan a Range of Ports
@@ -51,8 +47,6 @@ python port-scanner.py <target_ip> <target_port>
 bash
 
 python port-scanner.py <target_ip> <from_port> <to_port>
-
-يُرجى استخدام الرمز البرمجي بحذر.
 
 *Example:* python port-scanner.py 192.168.1.1 20 80 
 
